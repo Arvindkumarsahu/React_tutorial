@@ -1,0 +1,15 @@
+import React from "react";
+
+import ReactDOM from "react-dom";
+
+const myname="Arvind Kumar Sahu"
+ReactDOM.render(
+  <>
+    <h1> My name is {myname} </h1>
+    <p> My lucky number is {3+4} </p>
+
+    <p> Generating Random Number is {Math.random()}</p>
+
+  </>,
+  document.getElementById("root")
+)
